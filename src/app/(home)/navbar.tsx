@@ -79,14 +79,14 @@ export const Navbar = () => {
           render={<Link href={"/sign-in"} />}
           nativeButton={false}
           variant="secondary"
-          className="border-l border-t-0 border-r-0 px-12 h-full rounded-none bg-white hover:bg-red-400 transition-colors text-lg"
+          className="border-l border-t-0 border-r-0 border-b-0 px-12 h-full rounded-none bg-white hover:bg-red-400 transition-colors text-lg"
         >
           Log in
         </Button>
         <Button
           render={<Link href={"/sign-up"} />}
           nativeButton={false}
-          className="border-l border-t-0 border-r-0 px-12 h-full rounded-none bg-black text-white hover:bg-red-400 transition-colors text-lg"
+          className="border-l border-t-0 border-r-0 border-b-0 px-12 h-full rounded-none bg-black text-white hover:bg-red-400 transition-colors text-lg"
         >
           Start selling
         </Button>
