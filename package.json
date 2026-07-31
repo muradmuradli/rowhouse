@@ -2,24 +2,31 @@
   "name": "rowhouse",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "generate:types": "payload generate:types --use-swc"
   },
   "dependencies": {
     "@base-ui/react": "^1.6.0",
+    "@payloadcms/db-mongodb": "^3.86.0",
+    "@payloadcms/next": "^3.86.0",
+    "@payloadcms/richtext-lexical": "^3.86.0",
     "@shadcn/react": "^0.2.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
     "date-fns": "^4.4.0",
     "embla-carousel-react": "^8.6.0",
+    "graphql": "^16.8.1",
     "input-otp": "^1.4.2",
     "lucide-react": "^1.25.0",
     "next": "16.2.11",
     "next-themes": "^0.4.6",
+    "payload": "^3.86.0",
     "react": "19.2.4",
     "react-day-picker": "^10.0.1",
     "react-dom": "19.2.4",
@@ -31,6 +38,7 @@
     "tw-animate-css": "^1.4.0"
   },
   "devDependencies": {
+    "@swc-node/register": "^1.12.1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
